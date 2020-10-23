@@ -7,7 +7,7 @@ const Liquid = () => {
       <p>Call 1-800-275-7006 and Speak to a Glue Expert to Find the Glue that’s Right for You. Or Email Us at 
             <a href="mailto:customerservice@adhesivesspecialists.com"> customerservice@adhesivesspecialists.com</a></p>
             {/* <img src="" alt=""/> */}
-      <p>Liquid  Adhesives are based on natural polymers such as dextrin, starches, and resins. They may be made from emulsions or dispersions of polyvinyl acetate, (PVAs) polyacrylates, ethylene vinyl acetates (EVAs) or natural rubber. Adhesives Specialist, Inc. supplies a wide range of high-quality, water-based adhesives, including tailor-made solutions.</p>
+      <p>Liquid Adhesives are based on natural polymers such as dextrin, starches, and resins. They may be made from emulsions or dispersions of polyvinyl acetate, (PVAs) polyacrylates, ethylene vinyl acetates (EVAs) or natural rubber. Adhesives Specialist, Inc. supplies a wide range of high-quality, water-based adhesives, including tailor-made solutions.</p>
       <h4>Here's a list of some of our liquid adhesives:</h4>
       <table className="table">
         <thead>
