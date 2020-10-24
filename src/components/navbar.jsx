@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() { 
@@ -13,22 +14,22 @@ class Navbar extends Component {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Home<span className="sr-only"></span></a>
+            <Link to="/" className="nav-link" >Home<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">Hot Melts<span className="sr-only"></span></a>
+            <Link to="hotmelt" className="nav-link" >Hot Melt<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">Pressure Sensitives<span className="sr-only"></span></a>
+            <Link to="pressure-sensitive" className="nav-link" >Pressure Sensitive<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">Liquids<span className="sr-only"></span></a>
+            <Link to="liquid" className="nav-link" >Liquid<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">Equipment<span className="sr-only"></span></a>
+            <Link to="equipment" className="nav-link" >Equipment<span className="sr-only"></span></Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">Contact<span className="sr-only"></span></a>
+            <Link to="contact" className="nav-link" >Contact<span className="sr-only"></span></Link>
           </li>
         </ul>
       </div>

@@ -1,26 +1,38 @@
 import React from 'react';
-// import Bootstrap from 'bootstrap';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 import Navbar from './navbar';
-// import LandingPage from './landing-page';
-// import Hotmelt from './nav-list-pages/hotmelt';
-// import Liquid from './nav-list-pages/liquid';
-// import PressureSensitive from './nav-list-pages/pressure-sensitive';
-// import Products from './nav-list-pages/products';
-// import Equipment from './nav-list-pages/equipment';
-// import Contact from './nav-list-pages/contact';
+import LandingPage from './pages/landing-page';
+import Hotmelt from './pages/hotmelt';
+import Liquid from './pages/liquid';
+import PressureSensitive from './pages/pressure-sensitive';
+import Products from './pages/products';
+import Equipment from './pages/equipment';
+import Contact from './pages/contact';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      {/* <LandingPage /> */}
-      {/* <Hotmelt /> */}
-      {/* <PressureSensitive /> */}
-      {/* <Liquid /> */}
-      {/* <Products /> */}
-      {/* <Equipment /> */}
-      {/* <Contact /> */}
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <main>
+          <Switch>
+              <Route exact path="/" component={LandingPage}>
+                <LandingPage />
+              </Route>
+              <Route exact path="/hotmelt" component={Hotmelt} />
+              <Route exact path="/liquid" component={Liquid} />
+              <Route exact path="/pressure-sensitive" component={PressureSensitive} />
+              <Route exact path="/products" component={Products} />
+              <Route exact path="/equipment" component={Equipment} />
+              <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </main>
+      </div>
+    </Router>
   );
 }
 
