@@ -20,9 +20,7 @@ function App() {
         <Navbar />
         <main>
           <Switch>
-              <Route exact path="/" component={LandingPage}>
-                <LandingPage />
-              </Route>
+              <Route exact path="/" component={LandingPage} />
               <Route exact path="/hotmelt" component={Hotmelt} />
               <Route exact path="/liquid" component={Liquid} />
               <Route exact path="/pressure-sensitive" component={PressureSensitive} />
