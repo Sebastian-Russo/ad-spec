@@ -1,11 +1,7 @@
-const { default: FG3000 } = require("../components/glues/fg3000");
-const { default: FG6500 } = require("../components/glues/fg6500");
-const { default: HM2505 } = require("../components/glues/hm2505");
-const { default: HM980 } = require("../components/glues/hm980");
 
-const adhesives = [
+export const adhesives = [
   {
-    name: 65-301,
+    name: "65-301",
     glue: "cold glue",
     type: "Partial Copolymer Resin",
     image: "",
@@ -13,11 +9,11 @@ const adhesives = [
     industries: "Folding Cartons, Can Labels, Assembly",
     color: "White",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC 65-301 conforms to federal specifications 121.2520 for food packaging",
+    advantages: "ADSPEC 65-301 conforms to federal specifications 121.2520 for food packaging",
     "shelf life": "3 months"
   },
   {
-    name: 3003,
+    name: '3003',
     glue: "cold glue",
     type: "dextrin",
     image: "", 
@@ -25,11 +21,11 @@ const adhesives = [
     industries: "Bag and Box",
     color: "amber",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 3003 conforms to federal specifications 121.2520 for food packaging",
+    advantages: "ADSPEC# 3003 conforms to federal specifications 121.2520 for food packaging",
     "shelf life": "3 months"
   },
   {
-    name: 4302,
+    name: '4302',
     glue: "cold glue",
     type: "resin paste",
     image: "",
@@ -37,11 +33,11 @@ const adhesives = [
     industries: "bag",
     color: "opaque",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 4302 conforms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
+    advantages: "ADSPEC# 4302 conforms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
     "shelf life": "3 months"
   },
   {
-    name: 5525,
+    name: '5525',
     glue: "cold glue",
     type: "Homopolymer",
     image: "",
@@ -49,11 +45,11 @@ const adhesives = [
     industries: "Corrugated",
     color:"Wet-White / Dry Clear",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 5525 conforms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
+    advantages: "ADSPEC# 5525 conforms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
     "shelf life": "3 months"
   },
   {
-    name: 5690,
+    name: '5690',
     glue: "cold glue",
     type: "Homopolymer",
     image: "",
@@ -61,11 +57,11 @@ const adhesives = [
     industries: "Corrugated",
     color: "opaque",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 5690 conforms to federal specifications 121.2520 for food packaging",
+    advantages: "ADSPEC# 5690 conforms to federal specifications 121.2520 for food packaging",
     "shelf life": "3 months"
   },
   {
-    name: 5890,
+    name: '5890',
     glue: "cold glue",
     type: "Homopolymer",
     image: "",
@@ -73,11 +69,11 @@ const adhesives = [
     industries: "Corrugated",
     color: "opaque",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 5690 conforms to federal specifications 121.2520 for food packaging",
+    advantages: "ADSPEC# 5690 conforms to federal specifications 121.2520 for food packaging",
     "shelf life": "3 months"
   },
   {
-    name: 85-301,
+    name: '85-301',
     glue: "cold glue",
     type: "Copolymer",
     image: "",
@@ -85,113 +81,119 @@ const adhesives = [
     industries: "Packaging",
     color: "Wet-White / Dry Clear",
     packaging: "30, 55 gallon Drums, Totes or Pails",
-    remarks: "ADSPEC# 85-301 confirms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
+    advantages: "ADSPEC# 85-301 confirms to federal specification composition requirements of indirect food additive regulations 21 CFR 175.105 ADHESIVES",
     "shelf life": "3 months"
   },
   {
-    name: FG3000,
+    name: 'FG3000',
     glue: "pressure sensitive",
-    type: "pressure sensitive",
+    type: "Fugitive Glue",
     image: "",
     description: "FG3000 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
-    color: "",
-    packaging: "",
-    remarks: "",
-    "shelf life": ""
+    color: "clear",
+    packaging: "pellets",
+    "shelf life": "2 years",
+    advantages: ["designed for removable applications like credit card attachments"]
   },
   {
-    name: FG6500,
+    name: 'FG6500',
     glue: "pressure sensitive",
-    type: "pressure sensitive",
+    type: "Fugitive Glue",
     image: "",
     description: "FG6500 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
-    color: "",
+    color: "white/clear",
     packaging: "",
-    remarks: "",
-    "shelf life": ""
+    "shelf life": "2 years",
+    advantages: ["designed for removable applications like credit card attachments"]
   },
   {
-    name: HM980,
+    name: 'HM980',
     glue: "hot melt",
     type: "High Temp – Heavily Coating Wax Box Case Seal",
     image: "",
     description: "",
     industries: "Meat and Poultry",
-    color: "",
+    color: "light yellow",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Chemically penetrates through coating vs. raising temperatures", "100% Fiber tear on most difficult applications", "Will bond double sided -heavy waxed surfaces", "Excellent thermal stability", "High tack / Fast set", "Freezer grade", "Bonds to a wide range of difficult substrates" ]
   },
   {
-    name: HM2505,
+    name: 'HM2505',
     glue: "hot melt",
-    type: "hot melt",
+    type: "Low Temp – Difficult Coating Case Seal",
     image: "",
     description: "",
     industries: "Frozen Foods, Holographic folding cartons",
-    color: "",
+    color: "light yellow",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Freezer Grade: Performs extremely well in cold environments", "Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°, F hot melt requires 18 seconds to cool down below 180F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: 100°F difference reduces wear and tear on machinery", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%"]
   },
   {
-    name: HM3060,
+    name: 'HM3060',
     glue: "hot melt",
-    type: "hot melt",
+    type: "Low Temp – Case Seal",
     image: "",
     description: "",
     industries: "Frozen Foods, Holographic folding cartons",
-    color: "",
+    color: "yellow/white",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°F hot melt requires 18 seconds to cool down below 180°F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: 100°F difference reduces wear and tear on machinery", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%"]
   },
   {
-    name: HM4500,
+    name: 'HM4500',
     glue: "hot melt",
-    type: "hot melt",
+    type: "Low Temp Case Seal",
     image: "",
     description: "",
     industries: "",
-    color: "",
+    color: "light yellow",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°, F hot melt requires 18 seconds to cool down below 180F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive"]
   },
   {
-    name: HM8020,
+    name: 'HM8020',
     glue: "hot melt",
-    type: "hot melt",
+    type: "High Temp-Freezer Grade",
     image: "",
     description: "",
     industries: "Folding carton, Case / Carton Seal, Tray forming",
-    color: "",
+    color: "light yellow",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Heat resistant up to 180°F", "Excellent thermal stability", "Good Peal Strength", "Short Set times", "Fast Tact", "Freezer Grade"]
   },
   {
-    name: HSLA9085,
+    name: "HSLA9085",
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
     description: "HSLA9085 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "",
     "shelf life": "",
-    advantages: []
+    advantages: ["designed for Krones Labelers. It is also suitable for laminating, Coating, and Hand Work Applications"]
   },
   {
-    name: PS160,
+    name: 'PS160',
+    glue: "presure sensitive",
+    type: "presure sensitive",
+    image: "",
+    description: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
+    industries: "",
+    color: "clear",
+    packaging: "pellets",
+    "shelf life": "2 years",
+    advantages: ["PS160 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications"]
+  },
+  {
+    name: 'PS505',
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
@@ -199,84 +201,73 @@ const adhesives = [
     industries: "",
     color: "",
     packaging: "pellets",
-    remarks: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
-    "shelf life": "",
-    advantages: []
+    advantages: ["Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications"],
+    "shelf life": "2 years"
   },
   {
-    name: PS505,
+    name: 'PS3000',
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
     description: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
-    "shelf life": "",
-    advantages: []
+    advantages: ["Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications"],
+    "shelf life": "2 years"
   },
   {
-    name: PS3000,
-    glue: "presure sensitive",
-    type: "presure sensitive",
-    image: "",
-    description: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
-    industries: "",
-    color: "",
-    packaging: "pellets",
-    remarks: "Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
-    "shelf life": "",
-    advantages: []
-  },
-  {
-    name: SM1523,
+    name: 'SM1523',
     glue: "hot melt",
     type: "Metallocene Hybrid",
     image: "",
     description: "",
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "",
     advantages: ["Cost Savings – 30% less than traditional Metallocene", "Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
   },
   {
-    name: SM1831,
+    name: 'SM1831',
     glue: "hot melt",
     type: "Metallocene Hybrid",
     image: "",
     description: "",
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "",
     advantages: ["Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
   },
   {
-    name: SM3150,
+    name: 'SM3150',
     glue: "hot melt",
     type: "",
     image: "",
     description: "",
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "",
-    "shelf life": "",
+    "shelf life": "2 years",
     advantages: ["Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: Metallocene Hot Melt never chars", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%", "Bonds to a wide range of difficult substrates", "Light color will enhance your package appearance", "Odor free, smoke free, user-friendly work environment", "Retain its clarity after many hours of use"]
   },
   {
-    name: SM7834,
+    name: 'SM7834',
     glue: "hot melt",
-    type: "",
+    type: "Premium Metallocene",
     image: "",
-    description: "",
+    description: "clear",
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
-    color: "",
+    color: "clear",
     packaging: "pellets",
-    remarks: "",
     "shelf life": "",
     advantages: ["Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: Metallocene Hot Melt never chars", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%", "Bonds to a wide range of difficult substrates", "Light color will enhance your package appearance", "Odor free, smoke free, user-friendly work environment", "Retain its clarity after many hours of use"]
   },
+]
+
+export const coldGlueApplications = [
+  "AC filters", "automotive", "paper bags", "book binding", "business form", "corrugated boxes", "envelopes", "folding cartons", "furniture", "hygiene products", "insulation", "labeling", "pressure sensitives", "security packaging", "tube winding"
+]
+
+export const pressureSensitiveApplications = [
+  "automotive adhesives", "foal fabrication", "book binding adhesives", "envelope adhesives", "folding carton adhesives", "bottle labling", "hygiene products", "labeling adhesives", "palletizing adhesives", "security packaging", "woodworking"
 ]
