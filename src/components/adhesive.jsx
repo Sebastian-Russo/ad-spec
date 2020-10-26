@@ -31,7 +31,7 @@ class Adhesives extends Component {
           <h3>{item.name}</h3>
           <div>Type: {item.type}</div>
           <div>Color: {item.color}</div>
-          <div>{item.packaging}</div>
+          <div>Packaging: {item.packaging}</div>
           <div>Shelf life: {item['shelf life']}</div>
           <div>Advantages: {item.advantages}</div>
         </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { getAdhesives } from '../../services/adhesives';
 
 class Hotmelt extends Component {
@@ -27,7 +28,8 @@ class Hotmelt extends Component {
       <table className="table">
         <thead>
           <tr>
-            <th onClick={() =>this.handleClick('SM3150')}>SM3150</th>
+            
+            <th><Link to={"/hotmelt/:sm3150"}>SM3150</Link></th>
             <th onClick={() =>this.handleClick('SM7834')}>SM7834</th>
             <th onClick={() =>this.handleClick('SM1523')}>SM1523</th>
           </tr>
