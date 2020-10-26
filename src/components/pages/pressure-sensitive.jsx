@@ -1,44 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { getAdhesives } from '../../services/adhesives';
 
-const PressureSensitive = () => {
-  return ( 
+class PressureSensitive extends Component {
+  state = { 
+    selected: '',
+    adhesives: []
+   }
+
+  componentDidMount() {
+    this.setState({ adhesives: getAdhesives() })
+  }
+
+  render() { 
+    const { adhesives } = this.state; 
+    const pressureSensitive = adhesives.filter(adhesive => adhesive.glue === "pressure sensitive");
+
+    return ( 
     <div className="container">
       <h3>Pressure Sensitive Adhesives</h3>
-      <p>Call 1-800-275-7006 and Speak to a Glue Expert to Find the Glue that’s Right for You. Or Email Us at 
-            <a href="mailto:customerservice@adhesivesspecialists.com"> customerservice@adhesivesspecialists.com</a></p>
-            {/* <img src="" alt=""/> */}
-      <p>Adhesives Specialists manufacturers a wide variety of Metallocene, EVA & Pressure Sensitive hot melt adhesives. Here are a few of our most commonly use hot melts:</p>
-      <h4>Presure Sensitive Adhesives</h4>
       <table className="table">
         <thead>
-          <tr>
-            <th>PS3000</th>
-            <th>PS505</th>
-            <th>PS160</th>
-          </tr>
-        </thead>
-            <tbody>
-              <tr>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              </tr>
-            </tbody>
-            <thead>
-          <tr>
-            <th>HSLA9085</th>
-            <th>FG3000</th>
-            <th>FG6500</th>
-          </tr>
-        </thead>
-            <tbody>
-              <tr>
-              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers</td>
-              <td>Fugitive Glue <br/>Low Tack</td>
-              <td>Fugitive Glue <br/>Mail/Credit Card</td>
-              </tr>
-            </tbody>
-          </table>
+            {pressureSensitive.map(adhesive =>             
+            <tr key={adhesive.name}>
+              <th>{adhesive.name}</th>
+              <td>{adhesive.type}</td>
+              <td>{adhesive.description}</td>
+            </tr>
+            )}
+          </thead>
+      </table>
           <p>Here’s a list of some of our Pressure Sensitive Adhesives Applications :</p>
           <div className="container d-flex flex-row">
             <ul className="col">
@@ -59,7 +49,8 @@ const PressureSensitive = () => {
             </ul>
           </div>
     </div>
-   );
+     );
+  }
 }
  
 export default PressureSensitive

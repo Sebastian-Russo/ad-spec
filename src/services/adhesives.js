@@ -170,8 +170,8 @@ const adhesives = [
   },
   {
     name: "hsla9085",
-    glue: "presure sensitive",
-    type: "presure sensitive",
+    glue: "pressure sensitive",
+    type: "pressure sensitive",
     image: "",
     description: "Krones Labelers",
     industries: "",
@@ -182,8 +182,8 @@ const adhesives = [
   },
   {
     name: 'ps160',
-    glue: "presure sensitive",
-    type: "presure sensitive",
+    glue: "pressure sensitive",
+    type: "pressure sensitive",
     image: "",
     description: "Laminating and Coating",
     industries: "",
@@ -194,8 +194,8 @@ const adhesives = [
   },
   {
     name: 'ps505',
-    glue: "presure sensitive",
-    type: "presure sensitive",
+    glue: "pressure sensitive",
+    type: "pressure sensitive",
     image: "",
     description: "Laminating and Coating",
     industries: "",
@@ -206,8 +206,8 @@ const adhesives = [
   },
   {
     name: 'ps3000',
-    glue: "presure sensitive",
-    type: "presure sensitive",
+    glue: "pressure sensitive",
+    type: "pressure sensitive",
     image: "",
     description: "Laminating and Coating",
     industries: "",

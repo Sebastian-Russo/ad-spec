@@ -19,8 +19,7 @@ class Hotmelt extends Component {
 
   render() { 
     const { adhesives } = this.state; 
-    const hotmelts = adhesives.filter(adhesive => adhesive.glue === "hot melt")
-    console.log(hotmelts)
+    const hotmelts = adhesives.filter(adhesive => adhesive.glue === "hot melt");
 
     return ( 
     <div className="container">

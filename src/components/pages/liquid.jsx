@@ -1,44 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { getAdhesives } from '../../services/adhesives';
 
-const Liquid = () => {
-  return ( 
+class Liquid extends Component {
+  state = { 
+    selected: '',
+    adhesives: []
+  }
+
+  componentDidMount() {
+    this.setState({ adhesives: getAdhesives() })
+  }
+
+  render() { 
+    const { adhesives } = this.state;
+    const liquids = adhesives.filter(adhesive => adhesive.glue === 'cold glue')
+
+    return ( 
     <div className="container">
       <h3>Liquid Adhesives</h3>
-      <p>Call 1-800-275-7006 and Speak to a Glue Expert to Find the Glue that’s Right for You. Or Email Us at 
-            <a href="mailto:customerservice@adhesivesspecialists.com"> customerservice@adhesivesspecialists.com</a></p>
-            {/* <img src="" alt=""/> */}
-      <p>Liquid Adhesives are based on natural polymers such as dextrin, starches, and resins. They may be made from emulsions or dispersions of polyvinyl acetate, (PVAs) polyacrylates, ethylene vinyl acetates (EVAs) or natural rubber. Adhesives Specialist, Inc. supplies a wide range of high-quality, water-based adhesives, including tailor-made solutions.</p>
-      <h4>Here's a list of some of our liquid adhesives:</h4>
       <table className="table">
         <thead>
-          <tr>
-            <th>ADSPEC 3003</th>
-            <th>ADSPEC 65-301</th>
-            <th>ADSPEC 4302</th>
+        {liquids.map(adhesive =>             
+          <tr key={adhesive.name}>
+            <th>{adhesive.name}</th>
+            <td>{adhesive.type}</td>
+            <td>{adhesive.description}</td>
           </tr>
+        )}
         </thead>
-            <tbody>
-              <tr>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
-              </tr>
-            </tbody>
-            <thead>
-          <tr>
-            <th>ADSPEC 5690</th>
-            <th>ADSPEC 5525</th>
-            <th>ADSPEC 85-301</th>
-          </tr>
-        </thead>
-            <tbody>
-              <tr>
-              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers</td>
-              <td>Fugitive Glue <br/>Low Tack</td>
-              <td>Fugitive Glue <br/>Mail/Credit Card</td>
-              </tr>
-            </tbody>
-          </table>
+      </table>
           <p>Here's are some Industries that use Liquid Adhesives:</p>
           <div className="container d-flex flex-row">
             <ul className="col">
@@ -63,7 +53,8 @@ const Liquid = () => {
             </ul>
           </div>
     </div>
-   );
+    );
+  }
 }
  
 export default Liquid
