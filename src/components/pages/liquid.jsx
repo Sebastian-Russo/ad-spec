@@ -19,9 +19,9 @@ const Liquid = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
               </tr>
             </tbody>
             <thead>
@@ -33,9 +33,9 @@ const Liquid = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Low Tack <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Mail/Credit Card <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers</td>
+              <td>Fugitive Glue <br/>Low Tack</td>
+              <td>Fugitive Glue <br/>Mail/Credit Card</td>
               </tr>
             </tbody>
           </table>

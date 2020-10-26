@@ -19,9 +19,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Metallocene <br/>Case/Carton Seal <br/><a href="#">More information</a></td>
-              <td>Premium Metallocene <br/>Case/Carton Seal <br/><a href="#">More information</a></td>
-              <td>Metallocene Hybrid <br/>Case/Carton Seal <br/><a href="#">More information</a></td>
+              <td>Metallocene <br/>Case/Carton Seal</td>
+              <td>Premium Metallocene <br/>Case/Carton Seal</td>
+              <td>Metallocene Hybrid <br/>Case/Carton Seal</td>
               </tr>
             </tbody>
             <thead>
@@ -33,9 +33,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Metallocene Hybrid<br/>Low Temp <br/><a href="#">More information</a></td>
-              <td>High Temp – EVA <br/>Case/Carton Seal <br/><a href="#">More information</a></td>
-              <td>High Temp – EVA <br/>Wax Box Case Seal <br/><a href="#">More information</a></td>
+              <td>Metallocene Hybrid<br/>Low Temp</td>
+              <td>High Temp – EVA <br/>Case/Carton Seal</td>
+              <td>High Temp – EVA <br/>Wax Box Case Seal</td>
               </tr>
             </tbody>
           <thead>
@@ -47,9 +47,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Low-Temp – EVA <br/>High Heat Resistant <br/><a href="#">More information</a></td>
-              <td>Low-Temp – EVA <br/>Premium Case Seal <br/><a href="#">More information</a></td>
-              <td>Low-Temp – EVA <br/>Case/Carton Seal <br/><a href="#">More information</a></td>
+              <td>Low-Temp – EVA <br/>High Heat Resistant</td>
+              <td>Low-Temp – EVA <br/>Premium Case Seal</td>
+              <td>Low-Temp – EVA <br/>Case/Carton Seal</td>
               </tr>
             </tbody>
       </table>
@@ -64,9 +64,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
               </tr>
             </tbody>
             <thead>
@@ -78,9 +78,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Low Tack <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Mail/Credit Card <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers</td>
+              <td>Fugitive Glue <br/>Low Tack</td>
+              <td>Fugitive Glue <br/>Mail/Credit Card</td>
               </tr>
             </tbody>
           </table>
@@ -95,9 +95,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
-              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
+              <td>Pressure Sensitive Hot Melt <br/>Laminating and Coating</td>
               </tr>
             </tbody>
             <thead>
@@ -109,9 +109,9 @@ const Products = () => {
         </thead>
             <tbody>
               <tr>
-              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Low Tack <br/><a href="#">More information</a></td>
-              <td>Fugitive Glue <br/>Mail/Credit Card <br/><a href="#">More information</a></td>
+              <td>Pressure Sensitive Hot Melt<br/>Krones Labelers</td>
+              <td>Fugitive Glue <br/>Low Tack</td>
+              <td>Fugitive Glue <br/>Mail/Credit Card</td>
               </tr>
             </tbody>
           </table>

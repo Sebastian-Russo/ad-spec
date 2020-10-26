@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM, {render,} from 'react-dom';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
@@ -33,6 +32,9 @@ class Navbar extends Component {
               <li className="nav-item active">
                 <Link to="contact" className="nav-link" >Contact<span className="sr-only"></span></Link>
               </li>
+              {/* <li className="nav-item active">
+                <Link to="adhesive" className="nav-link" >adhesive<span className="sr-only"></span></Link>
+              </li> */}
             </ul>
           </div>
         </nav>

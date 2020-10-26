@@ -12,6 +12,7 @@ import PressureSensitive from './pages/pressure-sensitive';
 import Products from './pages/products';
 import Equipment from './pages/equipment';
 import Contact from './pages/contact';
+import Adhesive from './adhesive';
 
 function App() {
   return (
@@ -22,8 +23,11 @@ function App() {
           <Switch>
               <Route exact path="/" component={LandingPage} />
               <Route exact path="/hotmelt" component={Hotmelt} />
+              <Route exact path="/hotmelt/:id" component={Adhesive} />
               <Route exact path="/liquid" component={Liquid} />
+              <Route exact path="/liquid/:id" component={Adhesive} />
               <Route exact path="/pressure-sensitive" component={PressureSensitive} />
+              <Route exact path="/pressure-sensitive/:id" component={Adhesive} />
               <Route exact path="/products" component={Products} />
               <Route exact path="/equipment" component={Equipment} />
               <Route exact path="/contact" component={Contact} />

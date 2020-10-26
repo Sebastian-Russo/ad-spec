@@ -1,5 +1,5 @@
 
-export const adhesives = [
+const adhesives = [
   {
     name: "65-301",
     glue: "cold glue",
@@ -85,11 +85,11 @@ export const adhesives = [
     "shelf life": "3 months"
   },
   {
-    name: 'FG3000',
+    name: 'fg3000',
     glue: "pressure sensitive",
     type: "Fugitive Glue",
     image: "",
-    description: "FG3000 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
+    description: "fg3000 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
     color: "clear",
     packaging: "pellets",
@@ -97,11 +97,11 @@ export const adhesives = [
     advantages: ["designed for removable applications like credit card attachments"]
   },
   {
-    name: 'FG6500',
+    name: 'fg6500',
     glue: "pressure sensitive",
     type: "Fugitive Glue",
     image: "",
-    description: "FG6500 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
+    description: "fg6500 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications",
     industries: "",
     color: "white/clear",
     packaging: "",
@@ -109,7 +109,7 @@ export const adhesives = [
     advantages: ["designed for removable applications like credit card attachments"]
   },
   {
-    name: 'HM980',
+    name: 'hm980',
     glue: "hot melt",
     type: "High Temp – Heavily Coating Wax Box Case Seal",
     image: "",
@@ -121,7 +121,7 @@ export const adhesives = [
     advantages: ["Chemically penetrates through coating vs. raising temperatures", "100% Fiber tear on most difficult applications", "Will bond double sided -heavy waxed surfaces", "Excellent thermal stability", "High tack / Fast set", "Freezer grade", "Bonds to a wide range of difficult substrates" ]
   },
   {
-    name: 'HM2505',
+    name: 'hm2505',
     glue: "hot melt",
     type: "Low Temp – Difficult Coating Case Seal",
     image: "",
@@ -133,7 +133,7 @@ export const adhesives = [
     advantages: ["Freezer Grade: Performs extremely well in cold environments", "Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°, F hot melt requires 18 seconds to cool down below 180F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: 100°F difference reduces wear and tear on machinery", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%"]
   },
   {
-    name: 'HM3060',
+    name: 'hm3060',
     glue: "hot melt",
     type: "Low Temp – Case Seal",
     image: "",
@@ -145,7 +145,7 @@ export const adhesives = [
     advantages: ["Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°F hot melt requires 18 seconds to cool down below 180°F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: 100°F difference reduces wear and tear on machinery", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%"]
   },
   {
-    name: 'HM4500',
+    name: 'hm4500',
     glue: "hot melt",
     type: "Low Temp Case Seal",
     image: "",
@@ -157,7 +157,7 @@ export const adhesives = [
     advantages: ["Safety: The severity of a burn depends on the length of time that the area is held above the burn temperature. For example, 1 gramme of a traditional 350°, F hot melt requires 18 seconds to cool down below 180F, and will be constantly burning during those 18 seconds. Applied at 250°F, only 70°F above the burn temperature, Low Temperature hot Melts will significantly reduce the occurrence of severe burns", "Reduced energy use: Measurements carried out in a production process showed that Low Temperature hot melts requires 33% less energy from the hot melt unit, all along the production cycle. This can produce considerable savings in a multi-line plant. The reduction in energy use will have a positive impact on the environment, and this is an important KPI for many leading food producers and Supermarkets", "Improved Stability: Decrease in the thermal degradation of the adhesive"]
   },
   {
-    name: 'HM8020',
+    name: 'hm8020',
     glue: "hot melt",
     type: "High Temp-Freezer Grade",
     image: "",
@@ -169,7 +169,7 @@ export const adhesives = [
     advantages: ["Heat resistant up to 180°F", "Excellent thermal stability", "Good Peal Strength", "Short Set times", "Fast Tact", "Freezer Grade"]
   },
   {
-    name: "HSLA9085",
+    name: "hsla9085",
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
@@ -181,7 +181,7 @@ export const adhesives = [
     advantages: ["designed for Krones Labelers. It is also suitable for laminating, Coating, and Hand Work Applications"]
   },
   {
-    name: 'PS160',
+    name: 'ps160',
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
@@ -190,10 +190,10 @@ export const adhesives = [
     color: "clear",
     packaging: "pellets",
     "shelf life": "2 years",
-    advantages: ["PS160 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications"]
+    advantages: ["ps160 is a Pressure Sensitive Hot Melt designed for laminating, Coating, and Hand Work Applications"]
   },
   {
-    name: 'PS505',
+    name: 'ps505',
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
@@ -205,7 +205,7 @@ export const adhesives = [
     "shelf life": "2 years"
   },
   {
-    name: 'PS3000',
+    name: 'ps3000',
     glue: "presure sensitive",
     type: "presure sensitive",
     image: "",
@@ -217,7 +217,7 @@ export const adhesives = [
     "shelf life": "2 years"
   },
   {
-    name: 'SM1523',
+    name: 'sm1523',
     glue: "hot melt",
     type: "Metallocene Hybrid",
     image: "",
@@ -228,7 +228,7 @@ export const adhesives = [
     advantages: ["Cost Savings – 30% less than traditional Metallocene", "Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
   },
   {
-    name: 'SM1831',
+    name: 'sm1831',
     glue: "hot melt",
     type: "Metallocene Hybrid",
     image: "",
@@ -239,7 +239,7 @@ export const adhesives = [
     advantages: ["Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
   },
   {
-    name: 'SM3150',
+    name: 'sm3150',
     glue: "hot melt",
     type: "",
     image: "",
@@ -251,7 +251,7 @@ export const adhesives = [
     advantages: ["Improved Stability: Decrease in the thermal degradation of the adhesive", "Reduced Downtime: Reduce char generated in an adhesive application", "Reduced Maintenance Cost: Metallocene Hot Melt never chars", "Efficiency: Fast set speeds of Low temp have improve line speeds by 30%", "Bonds to a wide range of difficult substrates", "Light color will enhance your package appearance", "Odor free, smoke free, user-friendly work environment", "Retain its clarity after many hours of use"]
   },
   {
-    name: 'SM7834',
+    name: 'sm7834',
     glue: "hot melt",
     type: "Premium Metallocene",
     image: "",
@@ -264,10 +264,14 @@ export const adhesives = [
   },
 ]
 
-export const coldGlueApplications = [
-  "AC filters", "automotive", "paper bags", "book binding", "business form", "corrugated boxes", "envelopes", "folding cartons", "furniture", "hygiene products", "insulation", "labeling", "pressure sensitives", "security packaging", "tube winding"
-]
+// const coldGlueApplications = [
+//   "AC filters", "automotive", "paper bags", "book binding", "business form", "corrugated boxes", "envelopes", "folding cartons", "furniture", "hygiene products", "insulation", "labeling", "pressure sensitives", "security packaging", "tube winding"
+// ]
 
-export const pressureSensitiveApplications = [
-  "automotive adhesives", "foal fabrication", "book binding adhesives", "envelope adhesives", "folding carton adhesives", "bottle labling", "hygiene products", "labeling adhesives", "palletizing adhesives", "security packaging", "woodworking"
-]
+// const pressureSensitiveApplications = [
+//   "automotive adhesives", "foal fabrication", "book binding adhesives", "envelope adhesives", "folding carton adhesives", "bottle labling", "hygiene products", "labeling adhesives", "palletizing adhesives", "security packaging", "woodworking"
+// ]
+
+export const getAdhesives = () => {
+  return adhesives;
+}
