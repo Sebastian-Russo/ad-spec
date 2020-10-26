@@ -111,7 +111,7 @@ const adhesives = [
   {
     name: 'hm980',
     glue: "hot melt",
-    type: "High Temp – Heavily Coating Wax Box Case Seal",
+    type: "High Temp Heavily Coating Wax Box Case Seal",
     image: "",
     description: "Wax Box Case Seal",
     industries: "Meat and Poultry",
@@ -123,7 +123,7 @@ const adhesives = [
   {
     name: 'hm2505',
     glue: "hot melt",
-    type: "Low Temp – Difficult Coating Case Seal",
+    type: "Low Temp Difficult Coating Case Seal",
     image: "",
     description: "Premium Case Seal",
     industries: "Frozen Foods, Holographic folding cartons",
@@ -135,7 +135,7 @@ const adhesives = [
   {
     name: 'hm3060',
     glue: "hot melt",
-    type: "Low Temp – Case Seal",
+    type: "Low Temp Case Seal",
     image: "",
     description: "Case/Carton Seal",
     industries: "Frozen Foods, Holographic folding cartons",
@@ -225,7 +225,7 @@ const adhesives = [
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
     color: "clear",
     packaging: "pellets",
-    advantages: ["Cost Savings – 30% less than traditional Metallocene", "Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
+    advantages: ["Cost Savings 30% less than traditional Metallocene", "Efficiency: Fast set speeds improve line speeds", "Freezer Grade: Performs extremely well in cold environments", "Improved Stability: Decrease in the thermal degradation", "Reduced Downtime: Reduces char generated in an adhesive application"]
   },
   {
     name: 'sm1831',
@@ -243,7 +243,7 @@ const adhesives = [
     glue: "hot melt",
     type: "Metallocene",
     image: "",
-    description: "",
+    description: "Case/Carton Seal",
     industries: "Folding carton, Case Seal, Corrugated, Tray foriming",
     color: "clear",
     packaging: "pellets",
