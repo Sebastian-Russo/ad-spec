@@ -13,6 +13,7 @@ import Products from './pages/products';
 import Equipment from './pages/equipment';
 import Contact from './pages/contact';
 import SingleAdhesive from './single-adhesive';
+import Footer from './footer';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               <Route exact path="/equipment" component={Equipment} />
               <Route exact path="/contact" component={Contact} />
           </Switch>
+          <Footer />
         </main>
       </div>
     </Router>
