@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { getAdhesives } from '../../services/adhesives';
 
 class Liquid extends Component {
@@ -9,6 +10,10 @@ class Liquid extends Component {
 
   componentDidMount() {
     this.setState({ adhesives: getAdhesives() })
+  }
+
+  handleClick = name => {
+    this.setState({ selected: name })
   }
 
   render() { 
@@ -22,7 +27,7 @@ class Liquid extends Component {
         <thead>
         {liquids.map(adhesive =>             
           <tr key={adhesive.name}>
-            <th>{adhesive.name}</th>
+            <th><Link to={`/liquid/${adhesive.name}`}>{adhesive.name}</Link></th>
             <td>{adhesive.type}</td>
             <td>{adhesive.description}</td>
           </tr>

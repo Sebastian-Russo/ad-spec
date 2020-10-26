@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { getAdhesives } from '../services/adhesives';
 
-class Adhesives extends Component {
+class SingleAdhesives extends Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -41,7 +41,7 @@ class Adhesives extends Component {
   }
 }
  
-export default Adhesives;
+export default SingleAdhesives;
 
 // input/props - the id/name of adhesives
 // output/event - any?

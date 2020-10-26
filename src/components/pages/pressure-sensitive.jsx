@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { getAdhesives } from '../../services/adhesives';
 
 class PressureSensitive extends Component {
@@ -22,7 +23,7 @@ class PressureSensitive extends Component {
         <thead>
             {pressureSensitive.map(adhesive =>             
             <tr key={adhesive.name}>
-              <th>{adhesive.name}</th>
+              <th><Link to={`/pressure-sensitive/${adhesive.name}`}>{adhesive.name}</Link></th>
               <td>{adhesive.type}</td>
               <td>{adhesive.description}</td>
             </tr>

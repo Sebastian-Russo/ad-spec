@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { getAdhesives } from '../../services/adhesives';
 
 class Hotmelt extends Component {
@@ -13,7 +13,6 @@ class Hotmelt extends Component {
   }
   
   handleClick = name => {
-    console.log('clicked', name)
     this.setState({ selected: name })
   }
 
@@ -28,7 +27,7 @@ class Hotmelt extends Component {
         <thead>
           {hotmelts.map(adhesive =>             
           <tr key={adhesive.name}>
-            <th>{adhesive.name}</th>
+            <th><Link to={`/hotmelt/${adhesive.name}`}>{adhesive.name}</Link></th>
             <td>{adhesive.description}</td>
             <td>{adhesive.type}</td>
           </tr>
