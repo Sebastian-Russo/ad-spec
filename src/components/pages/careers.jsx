@@ -22,7 +22,7 @@ const Careers = () => {
           <p>With Adhesives Specialists 401(k) & Retirement Plan, employees can immediately build retirement savings through contributions of their own, plus nonelective retirement contributions and matching contributions made by the company.</p>
         </div>
         <div className="col">
-          <h4>Apply now</h4>
+          <h4><a href="mailto:stever@adhesivesspecialists.com">Apply now</a></h4>
         </div>
       </div>
     </div>

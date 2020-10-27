@@ -1,5 +1,4 @@
 import React from 'react';
-import './contact.css'
 
 const Contact = () => {
   return ( 
@@ -23,9 +22,9 @@ const Contact = () => {
         </ul>
       <div>
         <h6>Connect with us: </h6>
-        <a href="https://www.linkedin.com/company/adhesives-specialists/" target="_blank"><i class="fab fa-linkedin fa-2x m-2"></i></a>
-        <a href="https://www.facebook.com/adhesivesspecialistsinc" target="_blank"><i class="fab fa-facebook-square fa-2x m-2"></i></a>
-        <a href="mailto:customerservice@adspecinc.com"><i class="fas fa-envelope-square fa-2x m-2"></i></a>
+        <a href="https://www.linkedin.com/company/adhesives-specialists/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-2x m-2"></i></a>
+        <a href="https://www.facebook.com/adhesivesspecialistsinc" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square fa-2x m-2"></i></a>
+        <a href="mailto:customerservice@adspecinc.com"><i className="fas fa-envelope-square fa-2x m-2"></i></a>
       </div>
     </div>
    );
