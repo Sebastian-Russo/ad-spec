@@ -25,6 +25,13 @@ class Hotmelt extends Component {
       <h3>Hot Melt Adhesives</h3>
       <table className="table">
         <thead>
+          <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
           {hotmelts.map(adhesive =>             
           <tr key={adhesive.name}>
             <th><Link to={`/hotmelt/${adhesive.name}`}>{adhesive.name}</Link></th>
@@ -32,7 +39,7 @@ class Hotmelt extends Component {
             <td>{adhesive.type}</td>
           </tr>
           )}
-        </thead>
+        </tbody>
 
       </table>
       <p>Seal Tite – Ethylene Vinyl Acetate – EVA based hot melts are the most widely used form of Hot Melt and are an economical option for case sealing applications. Adhesives Specialists is known for having the highest quality EVA Hot Melts – for the lowest price in the industry.</p>

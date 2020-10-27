@@ -16,7 +16,7 @@ const adhesives = [
     name: '3003',
     glue: "cold glue",
     type: "dextrin",
-    image: "", 
+    image: "images/liquid-drum.jpg", 
     description: "High Tack Dextrin based adhesive with excellent stability, designed for bonding paper and corrugated substrates", 
     industries: "Bag and Box",
     color: "amber",

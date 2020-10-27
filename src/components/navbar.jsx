@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component {
   render() { 
     return ( 
-      
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link to="/" className="navbar-brand" >Adhesives Specialists</Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <Link to="/" className="navbar-brand" ><img src="images/ASI-logo.jpeg" alt="logo" width="50%"/></Link>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" >
             <span className="navbar-toggler-icon"></span>
           </button>
 
@@ -16,6 +15,9 @@ class Navbar extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <Link to="/" className="nav-link" >Home<span className="sr-only"></span></Link>
+              </li>
+              <li className="nav-item active">
+                <Link to="about" className="nav-link" >About<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item active">
                 <Link to="hotmelt" className="nav-link" >Hot Melt<span className="sr-only"></span></Link>
@@ -30,11 +32,11 @@ class Navbar extends Component {
                 <Link to="equipment" className="nav-link" >Equipment<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item active">
+                <Link to="careers" className="nav-link" >Careers<span className="sr-only"></span></Link>
+              </li>
+              <li className="nav-item active">
                 <Link to="contact" className="nav-link" >Contact<span className="sr-only"></span></Link>
               </li>
-              {/* <li className="nav-item active">
-                <Link to="adhesive" className="nav-link" >adhesive<span className="sr-only"></span></Link>
-              </li> */}
             </ul>
           </div>
         </nav>

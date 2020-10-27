@@ -29,6 +29,7 @@ class SingleAdhesives extends Component {
         {glue.map(item => 
         <div key={item.name}>
           <h3>{item.name}</h3>
+          <img src={item.image} alt="adhesive"/>
           <div>Type: {item.type}</div>
           <div>Color: {item.color}</div>
           <div>Packaging: {item.packaging}</div>
