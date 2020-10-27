@@ -23,8 +23,15 @@ class Liquid extends Component {
     return ( 
     <div className="container">
       <h3>Liquid Adhesives</h3>
-      <table className="table">
-        <thead>
+      <table className="table table-striped">
+      <thead>
+          <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
         {liquids.map(adhesive =>             
           <tr key={adhesive.name}>
             <th><Link to={`/liquid/${adhesive.name}`}>{adhesive.name}</Link></th>
@@ -32,7 +39,7 @@ class Liquid extends Component {
             <td>{adhesive.description}</td>
           </tr>
         )}
-        </thead>
+        </tbody>
       </table>
           <p>Here's are some Industries that use Liquid Adhesives:</p>
           <div className="container d-flex flex-row">

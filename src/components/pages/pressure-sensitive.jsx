@@ -19,8 +19,15 @@ class PressureSensitive extends Component {
     return ( 
     <div className="container">
       <h3>Pressure Sensitive Adhesives</h3>
-      <table className="table">
-        <thead>
+      <table className="table table-striped">
+      <thead>
+          <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
             {pressureSensitive.map(adhesive =>             
             <tr key={adhesive.name}>
               <th><Link to={`/pressure-sensitive/${adhesive.name}`}>{adhesive.name}</Link></th>
@@ -28,26 +35,27 @@ class PressureSensitive extends Component {
               <td>{adhesive.description}</td>
             </tr>
             )}
-          </thead>
+          </tbody>
       </table>
-          <p>Here’s a list of some of our Pressure Sensitive Adhesives Applications :</p>
-          <div className="container d-flex flex-row">
-            <ul className="col">
-              <li>Automotive Adhesives</li>
-              <li>Foam Fabrication</li>
-              <li>Book Binding Adhesives</li>
-              <li>Business Form Adhesives</li>
-              <li>Envelope Adhesives</li>
-              <li>Folding Carton Adhesives</li>
-            </ul>
-            <ul className="col">
-              <li>Automotive Adhesives</li>
-              <li>Foam Fabrication</li>
-              <li>Book Binding Adhesives</li>
-              <li>Business Form Adhesives</li>
-              <li>Envelope Adhesives</li>
-              <li>Folding Carton Adhesives</li>
-            </ul>
+
+      <p>Here’s a list of some of our Pressure Sensitive Adhesives Applications :</p>
+      <div className="container d-flex flex-row">
+        <ul className="col">
+          <li>Automotive Adhesives</li>
+          <li>Foam Fabrication</li>
+          <li>Book Binding Adhesives</li>
+          <li>Business Form Adhesives</li>
+          <li>Envelope Adhesives</li>
+          <li>Folding Carton Adhesives</li>
+        </ul>
+        <ul className="col">
+          <li>Automotive Adhesives</li>
+          <li>Foam Fabrication</li>
+          <li>Book Binding Adhesives</li>
+          <li>Business Form Adhesives</li>
+          <li>Envelope Adhesives</li>
+          <li>Folding Carton Adhesives</li>
+        </ul>
           </div>
     </div>
      );
