@@ -19,6 +19,10 @@ class PressureSensitive extends Component {
     return ( 
     <div className="container">
       <h3>Pressure Sensitive Adhesives</h3>
+      <div>
+        <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="35%"/>
+        <img src="images/fugitive.jpg" alt="fugitive glue" width="35%"/>
+      </div>
       <table className="table table-striped">
       <thead>
           <tr>
@@ -38,7 +42,7 @@ class PressureSensitive extends Component {
           </tbody>
       </table>
 
-      <p>Here’s a list of some of our Pressure Sensitive Adhesives Applications :</p>
+      <p>Industries our Pressure Sensitive Adhesives are used in :</p>
       <div className="container d-flex flex-row">
         <ul className="col">
           <li>Automotive Adhesives</li>

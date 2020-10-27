@@ -23,6 +23,7 @@ class Liquid extends Component {
     return ( 
     <div className="container">
       <h3>Liquid Adhesives</h3>
+      <img src="images/liquid-glue.jpg" alt="liquid glue" width="70%"/>
       <table className="table table-striped">
       <thead>
           <tr>
@@ -41,7 +42,7 @@ class Liquid extends Component {
         )}
         </tbody>
       </table>
-          <p>Here's are some Industries that use Liquid Adhesives:</p>
+          <p>Industries our Liquid Adhesives are used in:</p>
           <div className="container d-flex flex-row">
             <ul className="col">
               <li>AC Filter</li>
