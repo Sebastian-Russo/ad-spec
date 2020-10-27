@@ -19,10 +19,11 @@ class PressureSensitive extends Component {
     return ( 
     <div className="container">
       <h3>Pressure Sensitive Adhesives</h3>
-      <div>
-        <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="35%"/>
-        <img src="images/fugitive.jpg" alt="fugitive glue" width="35%"/>
+      <div class="front-page-image">
+        {/* <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="75%"/> */}
+        <img src="images/fugitive.jpg" alt="fugitive glue" width="75%"/>
       </div>
+      
       <table className="table table-striped">
       <thead>
           <tr>

@@ -23,8 +23,8 @@ class Hotmelt extends Component {
     return ( 
     <div className="container">
       <h3>Hot Melt Adhesives</h3>
-      <div>
-        <img src="images/hot-melt-in-jars.jpg" alt="hotmelt in jars" width="75%"/>
+      <div class="front-page-image">
+        <img src="images/hot-melt-in-jars.jpg" alt="hotmelt in jars" width="100%" />
       </div>
       <table className="table table-striped">
         <thead>
