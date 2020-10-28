@@ -19,10 +19,6 @@ class PressureSensitive extends Component {
     return ( 
     <div className="container">
       <h3>Pressure Sensitive Adhesives</h3>
-      <div class="front-page-image">
-        {/* <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="75%"/> */}
-        <img src="images/fugitive.jpg" alt="fugitive glue" width="75%"/>
-      </div>
       
       <table className="table table-striped">
       <thead>
@@ -43,7 +39,7 @@ class PressureSensitive extends Component {
           </tbody>
       </table>
 
-      <p>Industries our Pressure Sensitive Adhesives are used in :</p>
+      <h5>Industries our Pressure Sensitive Adhesives are used in :</h5>
       <div className="container d-flex flex-row">
         <ul className="col">
           <li>Automotive Adhesives</li>
@@ -52,16 +48,21 @@ class PressureSensitive extends Component {
           <li>Business Form Adhesives</li>
           <li>Envelope Adhesives</li>
           <li>Folding Carton Adhesives</li>
-        </ul>
-        <ul className="col">
           <li>Automotive Adhesives</li>
           <li>Foam Fabrication</li>
           <li>Book Binding Adhesives</li>
           <li>Business Form Adhesives</li>
           <li>Envelope Adhesives</li>
           <li>Folding Carton Adhesives</li>
+          <img src="images/approved.png" alt="approved" width="100px"/>
         </ul>
-          </div>
+        <img src="images/fugitive.jpg" alt="fugitive glue" width="40%" height="40%"/>
+      </div>
+      <div class="front-page-image">
+        {/* <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="75%"/> */}
+      </div>
+      <div style={{clear: "left"}}></div>
+
     </div>
      );
   }

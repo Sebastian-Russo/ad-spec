@@ -2,11 +2,10 @@
   padding: 20px;
   color: white;
   background-color: brown;
-  border: solid black;
 }
 
 .logo {
-  border: solid black;
+  margin: -20px;
 }
 
 .footer-link {

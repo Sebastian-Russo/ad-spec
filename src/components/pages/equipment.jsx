@@ -5,7 +5,8 @@ const Equipment = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h4>Hot melt extrusion using an underwater pelletizing system for pellet production</h4>
+          <h4>How we make our hot melts...</h4>
+          <h5>Hot melt extrusion using an underwater pelletizing system for pellet production</h5>
           <p>Gala Underwater Pelletizing Systems for HMA production are designed to be cost-effective at pellet rates up to 4,550 kg/h (10,031 lb/hr). The typical Gala HMA production System, downstream of the customer’s  vessel or extruder, includes an optional booster pump, melt pump, screen changer, melt cooler/hot oil system, polymer diverter valve with side discharge, water box by-pass system, underwater pelletizer, tempered water system, centrifugal dryer, and process control system for hot melt extrusion.</p>
           <img src="images/hotmelt-pellets.png" alt="hotmelt pellets" width="40%" />
           <img src="images/underwaterpelletizer1.jpg" alt="pelletizer" width="50%"/>

@@ -1,20 +1,19 @@
+.navbar-brand {
+  padding: 0;
+  margin: -23px;
+  margin-left: -26px;
+}
+
 .navbar {
-  background-color: black;
+  background-image: url("../chemistry-navbar.jpeg");
 }
 
-.nav-item {
-  background-color: black;
-  font-size: 20px;
+.nav-link {
+  font-weight: 700;
+  text-align: center;
 }
 
-.nav-item a {
-  color: white;
-}
-.nav-item a:hover {
-  color: red;
-}
-
-button.navbar-toggler {
-  /* background-color: white; */
-  border: white solid;
+.nav-item:hover {
+  background-color: turquoise;
+  opacity: 0.7;
 }

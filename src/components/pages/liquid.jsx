@@ -23,6 +23,7 @@ class Liquid extends Component {
     return ( 
     <div className="container">
       <h3>Liquid Adhesives</h3>
+      <img src="images/approved.png" alt="approved" width="100px"/>
       <div className="front-page-image">
         <img src="images/liquid-glue.jpg" alt="liquid glue" width="100%"/>
       </div>
@@ -44,7 +45,7 @@ class Liquid extends Component {
         )}
         </tbody>
       </table>
-          <p>Industries our Liquid Adhesives are used in:</p>
+          <h5>Industries our Liquid Adhesives are used in:</h5>
           <div className="container d-flex flex-row">
             <ul className="col">
               <li>AC Filter</li>
@@ -56,6 +57,8 @@ class Liquid extends Component {
               <li>Envelopes</li>
               <li>Folding Cartons</li>
             </ul>
+            <img src="images/glue-bottle.png" alt="glue-bottle" width="30%" height="30%" />
+
             <ul className="col">
               <li>Furiture</li>
               <li>Hygiene Products</li>
