@@ -1,10 +1,24 @@
-.footer {
+.container-footer {
   padding: 20px;
   color: white;
   background-color: brown;
+  border: solid black;
 }
 
-.footer-contact {
+.logo {
+  border: solid black;
+}
+
+.footer-link {
   color: white;
   text-decoration: none;
+}
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.request {
+  font-style: italic;
 }

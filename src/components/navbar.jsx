@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() { 
     return ( 
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg ">
           <Link to="/" className="navbar-brand" ><img src="images/ASI-logo.jpeg" alt="logo" width="50%"/></Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
