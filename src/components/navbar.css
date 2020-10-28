@@ -13,3 +13,8 @@
 .nav-item a:hover {
   color: red;
 }
+
+button.navbar-toggler {
+  /* background-color: white; */
+  border: white solid;
+}
