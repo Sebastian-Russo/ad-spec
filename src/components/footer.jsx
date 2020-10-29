@@ -21,10 +21,10 @@ const Footer = () => {
             <li><Link to="careers" className="footer-link" >Careers</Link></li>
           </ul>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <h3><a href="mailto:stever@adhesivesspecialists.com" className="footer-link request">Request a price quote</a></h3>
           <h3><a href="mailto:stever@adhesivesspecialists.com" className="footer-link request">Request an adhesive appraisal</a></h3>
-        </div>
+        </div> */}
         <div className="col">
           <p>Family owned, Established in 1983</p>
           <p>Adhesives Specialists Inc.</p>
