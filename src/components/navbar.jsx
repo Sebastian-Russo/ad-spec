@@ -18,25 +18,25 @@ class Navbar extends Component {
                 <Link to="/" className="nav-link text-white" >Home<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="about" className="nav-link text-white" >About<span className="sr-only"></span></Link>
+                <Link to="/about" className="nav-link text-white" >About<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="hotmelt" className="nav-link text-white" >Hot Melt<span className="sr-only"></span></Link>
+                <Link to="/hotmelt" className="nav-link text-white" >Hot Melt<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="pressure-sensitive" className="nav-link text-white" >Pressure Sensitive<span className="sr-only"></span></Link>
+                <Link to="/pressure-sensitive" className="nav-link text-white" >Pressure Sensitive<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="liquid" className="nav-link text-white" >Liquid<span className="sr-only"></span></Link>
+                <Link to="/liquid" className="nav-link text-white" >Liquid<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="equipment" className="nav-link text-white" >Equipment<span className="sr-only"></span></Link>
+                <Link to="/equipment" className="nav-link text-white" >Equipment<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="careers" className="nav-link text-white" >Careers<span className="sr-only"></span></Link>
+                <Link to="/careers" className="nav-link text-white" >Careers<span className="sr-only"></span></Link>
               </li>
               <li className="nav-item">
-                <Link to="contact" className="nav-link text-white" >Contact<span className="sr-only"></span></Link>
+                <Link to="/contact" className="nav-link text-white" >Contact<span className="sr-only"></span></Link>
               </li>
             </ul>
           </div>
