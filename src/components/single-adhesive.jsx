@@ -43,6 +43,3 @@ class SingleAdhesives extends Component {
 }
  
 export default SingleAdhesives;
-
-// input/props - the id/name of adhesives
-// output/event - any?

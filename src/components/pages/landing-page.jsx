@@ -1,5 +1,6 @@
 import React from 'react';
 import Request from '../request';
+// import HotPressureLiquid from '../hot-pressure-liquid';
 
 const LandingPage = () => {
   return ( 
@@ -21,6 +22,7 @@ const LandingPage = () => {
           <li>We have superior in person technical support</li>
         </ul>
         </div>
+        {/* <HotPressureLiquid /> */}
         <Request />
     </div>
       
