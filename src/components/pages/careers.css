@@ -1,0 +1,17 @@
+.btn-apply {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-apply:hover {
+  color: black;
+  background-color: white;
+}

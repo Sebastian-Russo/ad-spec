@@ -58,7 +58,7 @@ class PressureSensitive extends Component {
         </ul>
         <img src="images/fugitive.jpg" alt="fugitive glue" width="40%" height="40%"/>
       </div>
-      <div class="front-page-image">
+      <div className="front-page-image">
         {/* <img src="images/pressure-sensitive.jpg" alt="pressure sensitive glue" width="75%"/> */}
       </div>
       <div style={{clear: "left"}}></div>

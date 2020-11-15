@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 import { getAdhesives } from '../services/adhesives';
 
 class SingleAdhesives extends Component {
@@ -6,7 +7,8 @@ class SingleAdhesives extends Component {
     super(props);
     this.state = { 
       adhesives: [],
-      selected: ""
+      selected: "",
+      redirect: false
     }
   }
 
@@ -18,18 +20,17 @@ class SingleAdhesives extends Component {
     })
   }
   
+
   render() { 
+
     const { adhesives, selected } = this.state;
     const glue = adhesives.filter(adhesive => adhesive.name === selected.id)
 
-    console.log('glue', glue)
-
     return ( 
-      <div className="container">
+      <div className="container m-4 p-2">
         {glue.map(item => 
         <div key={item.name}>
           <h3>{item.name}</h3>
-          <img src={item.image} alt="adhesive"/>
           <div>Type: {item.type}</div>
           <div>Color: {item.color}</div>
           <div>Packaging: {item.packaging}</div>

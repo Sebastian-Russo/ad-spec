@@ -47,7 +47,7 @@ class Hotmelt extends Component {
           )}
         </tbody>
       </table>
-      <div class="front-page-image">
+      <div className="front-page-image">
         <img src="images/hot-melt-in-jars.jpg" alt="hotmelt in jars" width="100%" />
       </div>
       <div style={{clear: "left"}}></div>

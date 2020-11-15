@@ -6,3 +6,7 @@ img {
 .about {
   clear: left;
 }
+
+p {
+  line-height: 25px;
+}

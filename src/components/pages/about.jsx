@@ -11,7 +11,7 @@ const About = () => {
       <h3>Meet the family...</h3>
 
       <div className="col about">
-        <h4>Steve Russo, Sr. - The Boss</h4>
+        <h4>Steve Russo, Sr. - The Owner</h4>
         <img src="images/stevesr.jpeg" alt="person" width="35%" />
         <p>The founder and builder of the over 30 year old business.</p>
         <p>Born in Brookyn, first to go to college in the family. Majored in chemistry. Learned the adhesive business from the ground up. Went back for a masters in busienss. Then with his combine knowledge and determination, created Adhesives Specialists in 1983.</p>
@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
       <div className="col about">
-        <h4>Jim (Last name?) - The Chemist</h4>
+        <h4>Jim - The Chemist</h4>
         <img src="images/chemist.png" alt="person" width="35%" />
         <p>There from the start as the owner's right hand man. Reverse engineers adhesive products, then builds them back up with improved quality standards.</p>
       </div>
