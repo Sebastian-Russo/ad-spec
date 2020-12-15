@@ -29,14 +29,15 @@ const About = () => {
         <h4>Laurett Elfand - The Controller</h4>
         <img src="images/laurett.jpeg" alt="person" width="35%" />
         <p>From accounts payable, receiveable, and everything in between for almost 20 years, Laurett runs the team taking care of the interal business.</p>
-        <p>A year apart from her brother, Steven Russo, Jr., handles the inner working of the company. From international purchasing decisions for raw materials and suppliers, to local suppliers and employement</p>
+        <p>From international purchasing decisions for raw materials and suppliers, to local suppliers and employement</p>
         <p>Laurett handles the internal team, drives purchasing decision, and her motivates and trains her team to be independent self starters in a growing business. </p>
       </div>
 
       <div className="col about">
         <h4>Jim - The Chemist</h4>
         <img src="images/chemist.png" alt="person" width="35%" />
-        <p>There from the start as the owner's right hand man. Reverse engineers adhesive products, then builds them back up with improved quality standards.</p>
+        <p>He's been here from the start, and the owner's right hand man. Reverse engineers adhesive products, then builds them back up with improved efficiency and quality standards.</p>
+        <p>Commands the labatory and oversees production in the plant.</p>
       </div>
 
       <div className="col about"></div>
