@@ -29,8 +29,10 @@ function App() {
 
               <Route exact path="/hotmelt" component={Hotmelt} />
               <Route exact path="/hotmelt/:id" component={SingleAdhesive} />
+              
               <Route exact path="/liquid" component={Liquid} />
               <Route exact path="/liquid/:id" component={SingleAdhesive} />
+
               <Route exact path="/pressure-sensitive" component={PressureSensitive} />
               <Route exact path="/pressure-sensitive/:id" component={SingleAdhesive} />
             
